@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link href="index.css" rel="stylesheet">
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js">
+  </script>
+  <script type="text/javascript" src="index.js">
+  </script>
+  <link rel="stylesheet" href="magnific-popup.css">
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="jquery.magnific-popup.min.js"></script>
+</head>
+
+
+<body>
+
+  <header class="wrapper">
+    <div class="logo">
+      <img class="logo__img" src="logo.png" alt="" />
+      <img class="logo__img" src="backup.png" alt="" />
+    </div>
+    <div class="breadcrumbs">
+      <a href="#">White Papers</a><span>&#187;</span><a href="#">Annual Data Protection Report 2013</a>
+    </div>
+  </header>
+
+  <main class='wrapper'>
+
+    <!-- TABS -->
+    <!-- TABS NAVIGATION -->
+    <ul class="tabs">
+      <li rel="tab2"> SMB Edition</li>
+      <li class="active" rel="tab1">Enterprise Edition</li>
+    </ul>
+
+    <!-- TABS CONTENT-->
+    <div class="tab_container">
+
+      <!-- TAB1 CONTENT-->
+      <div id="tab1" class="tab_content">
+        <div id="tab_header"> <span>Annual Data Protection Report 2013:</span> <span> Enterprise and SMB Editions </span><br>
+          <span>Survey of 500 enterprises and 500 small / medium businesses across USA, UK, Germany and France</span>
+        </div>
+
+        <div id="tab1__info">
+          <h3>  Enterprise Edition</h3>
+          <h3>    CIO study Shows Capability, Complexity and Cost Issues <br> Hampering IT Departments</h3>
+          <img src="annual-report.png" alt="preview annual report" />
+          <a class="youtube-popup"> <input type="image" src="click.png" alt="click to look inside"></a>
+          <span>Key findings:</span>
+          <ul>
+            <li>68% of CIOs feel that their backup and recovery tools will become less effective as the amount of data and servers in their organization grows</li>
+            <li>88% of CIOs experience capability-related challenges with backup and recovery, 87% with cost and 84% with complexity: showing that data protection is still not a simple task
+            </li>
+            <li>58% of CIOs are planning to change their backup tool for virtual environments by 2014</li>
+          </ul>
+          <span>Download the <strong>full report</strong> to learn more and get the <strong>previous editions</strong> (2011 and 2010)</span>
+        </div>
+
+        <form id="tab__form" action="index.html" method="post">
+          <span>Register here</span><br>
+          <label for="firstname"> First name<sup>&#9913;</sup>
+              <input type="text"  id="firstname" name="firstname" value="" required></label><br>
+          <label for="lastname">Last name<sup>&#9913;</sup>
+            <input type="text" id="lastname" name="lastname" value="" required></label><br>
+          <label for="email">Business email<sup>&#9913;</sup>
+            <input type="email" name="email" id="email" value="" required></label><br>
+          <label for="country">Country<sup>&#9913;</sup>
+            <select class="" id="country" name="country"  required>
+                     <option value="Russia">Russia</option>
+                     <option value="USA" id="usa" selected>USA</option>
+                     <option value="Canada">Canada</option>
+                     <option value="Brazil">Brazil</option>
+                     <option value="UK">UK</option>
+              </select> </label><br>
+          <label id="state-list" for="state">State<sup style="color:transparent">&#9913;</sup>
+              <select class="" id="state" name="state">
+                       <option value=''>Select State</option>
+                       <option value="Alabama">Alabama</option>
+                       <option value="Alaska">Alaska</option>
+                       <option value="Arizona">Arizona</option>
+                       <option value="Arkansas">Arkanszs</option>
+                       <option value="California">California</option>
+                </select> </label><br>
+          <button type="submit" name="submit" value="register">Register</button>
+        </form>
+      </div>
+      <!-- #tab1 -->
+
+
+      <!-- TAB2 CONTENT-->
+      <div id="tab2" class="tab_content">
+        <div id="tab_header"> <span>Annual Data Protection Report 2013:</span> <span> Enterprise and SMB Editions </span><br>
+          <span>Survey of 500 enterprises and 500 small / medium businesses across USA, UK, Germany and France</span>
+        </div>
+
+        <div id="tab2__info">
+          <h3>SMB Edition</h3>
+          <h3>85% of SMBs Experiencing Problems with Backup and Recovery</h3>
+          <span>Report shows 55% will change backup tool by 2014</span><br>
+          <span>Veeam reveals the findings of the recent SMB data protection survey:</span><br>
+          <img src="report.jpg" alt="preview annual smb report" />
+          <a class="youtube-popup"><input type="image" src="click.png" alt="click to look inside"></a>
+          <ul>
+            <li>85% of SMBs are experiencing cost-related challenges with backup and recovery, 83% with capability and 80% with complexity</li>
+            <li>67% of the virtual environment is backed-up meaning that almost a third of SMBs’ virtual infrastructure is unprotected</li>
+            <li>More than 1 in 6 (17%) recoveries of backed-up machines cause problems</li>
+            <li>41% of SMBs stated that downtime in the event of an IT failure costs $150,000 or more per hour</li>
+          </ul><br>
+          <span>Infographics - SMB challenges with data protection in brief</span><br>
+          <img src="infographic_preview_1.png" alt="infographic preview" />
+          <img src="infographic_preview_2.png" alt="infographic preview" /><br>
+          <a href="#">Click to view the full-size infographics</a>
+        </div>
+
+        <form id="tab__form" action="index.html" method="post">
+          <span>Register here</span><br>
+          <label for="firstname"> First name<sup>&#9913;</sup>
+            <input type="text"  id="firstname" name="firstname" value="" required></label><br>
+          <label for="lastname">Last name<sup>&#9913;</sup>
+            <input type="text" id="lastname" name="lastname" value="" required></label><br>
+          <label for="email">Business email<sup>&#9913;</sup>
+            <input type="email" name="email" id="email" value="" required></label><br>
+          <label for="country">Country<sup>&#9913;</sup>
+           <select class="" id="country" name="country"  required>
+                   <option value="Russia">Russia</option>
+                   <option value="USA" id="usa" selected>USA</option>
+                   <option value="Canada">Canada</option>
+                   <option value="Brazil">Brazil</option>
+                   <option value="UK">UK</option>
+            </select> </label><br>
+          <label id="state-list" for="state">State<sup style="color:transparent">&#9913;</sup>
+           <select class="" id="state" name="state">
+                     <option value=''>Select State</option>
+                     <option value="Alabama">Alabama</option>
+                     <option value="Alaska">Alaska</option>
+                     <option value="Arizona">Arizona</option>
+                     <option value="Arkansas">Arkanszs</option>
+                     <option value="California">California</option>
+              </select> </label><br>
+          <button type="submit" name="submit" value="register">Register</button>
+        </form>
+      </div>
+      <!-- #tab2 -->
+    </div>
+  </main>
+
+  <footer class="wrapper">
+    <a class="footer-links" href="#">White Papers</a>
+    <a class="footer-links" href="#">Virtualisation Webinars</a>
+    <a class="footer-links" href="#">Product Demos</a>
+    <a class="footer-links" href="#">Contact Sales </a>
+    <a href="#" class="social"><img src="facebook.png" alt="facebook" /></a>
+    <a href="#" class="social"><img src="google.png" alt="google" /></a>
+    <a href="#" class="social"><img src="linkedin.png" alt="linkedin" /></a>
+    <a href="#" class="social"><img src="twitter.png" alt="twitter" /></a>
+    <div class="copyright">Copyright © 2013 Veeam® Software. <a href="#">Privacy Policy</a></div>
+  </footer>
+
+</body>

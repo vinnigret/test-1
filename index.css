@@ -327,6 +327,7 @@ sup {
   margin-top: 37px;
   border-radius: 3px;
   border: 1px solid #0c7b17;
+  background-image: -webkit-linear-gradient(#5ac84d, #02a91c);
   background-image: linear-gradient(#5ac84d, #02a91c);
   color: white;
   box-shadow: 0 1px 1px 0 gray;

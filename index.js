@@ -25,13 +25,19 @@ $(document).ready(function() {
 	});
 
  	//USA States
-	
-	$('#country').on('change', function() {
-		if ($('#usa').is(':selected')) {
-			$('#state-list').show()
+
+	$('.country').on('change', function(event) {
+		var country = $(event.target).val();
+     $('.country').val(country)
+		if (country === "USA") {
+			$('.state-list').show()
 		} else {
-			$('#state-list').hide()
+			$('.state-list').hide()
 		}
 	});
 
+		$('.state').on('change', function(event) {
+			var state = $(event.target).val();
+	     $('.state').val(state)
+		});
 });
